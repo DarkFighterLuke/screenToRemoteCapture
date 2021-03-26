@@ -7,7 +7,7 @@ A simple tool to send screenshots of the screen to the clipboard of another comp
 
 # Requirements
 Go 1.16 needed.<br>
-`gcc` is needed.
+`gcc` is needed.<br>
 `xclip` is needed on Linux.
 
 # Usage
