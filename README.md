@@ -7,8 +7,8 @@ A simple tool to send screenshots of the screen to the clipboard of another comp
 
 # Requirements
 Go 1.16 needed.<br>
-No other requirements are needed on any platforms if you are running the client.<br>
-`xclip` is needed on Linux for running the server.
+`gcc` is needed.
+`xclip` is needed on Linux.
 
 # Usage
 - Clone repository and `go build` it.
