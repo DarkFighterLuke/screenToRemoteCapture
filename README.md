@@ -5,7 +5,7 @@ A simple tool to send screenshots of the screen to the clipboard of another comp
 - Linux
 - Windows (only client)
 
-# Dependencies
+# Requirements
 No dependencies are needed on any platforms if you are running the client.<br>
 `xclip` is needed on Linux for running the server.
 
