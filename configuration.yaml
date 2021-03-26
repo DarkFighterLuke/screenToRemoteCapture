@@ -1,0 +1,19 @@
+---
+mode: "server"  #can be client or server
+
+#the section below is for client mode
+capture:
+  MsTeams:
+    server:
+      ip: "localhost"
+      port: 80
+    area:
+      x: 0
+      y: 0
+      width: 1920
+      height: 1080
+
+#the section below is for server mode
+server:
+  listenip: "localhost"
+  listenport: 8080
