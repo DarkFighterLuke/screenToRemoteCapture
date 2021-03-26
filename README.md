@@ -6,10 +6,10 @@ A simple tool to send screenshots of the screen to the clipboard of another comp
 - Windows (only client)
 
 # Dependencies
-No dependencies are needed on any platforms if you are running the client.
+No dependencies are needed on any platforms if you are running the client.<br>
 `xclip` is needed on Linux for running the server.
 
 # Usage
-Clone repository and `go build` it.
-Edit configuration file (or create a new one following the same schema) to configure screen region to capture and server address and port where to send screenshots. (Client)
-Edit configuration file (or create a new one following the same schema) to configure server listening address and port to receive incoming screenshots. (Server)
+Clone repository and `go build` it.<br>
+Edit configuration file (or create a new one following the same schema) to configure screen region to capture and server address and port where to send screenshots. (<b>Client</b>)<br>
+Edit configuration file (or create a new one following the same schema) to configure server listening address and port to receive incoming screenshots. (<b>Server</b>)
