@@ -1,9 +1,8 @@
 package main
 
 import (
-	"github.com/ZacJoffe/clipboard/xclip"
+	"github.com/skanehira/clipboard-image"
 	"gopkg.in/yaml.v2"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
@@ -53,27 +52,10 @@ func handleIncomingImage(w http.ResponseWriter, r *http.Request) {
 		log.Println("Error while parsing received image: ", err)
 	}
 
-	imageBytes, err := ioutil.ReadAll(image)
+	err = clipboard.CopyToClipboard(image)
 	if err != nil {
-		log.Println(err)
-	}
-
-	imageFile, err := ioutil.TempFile("./", ".tempimg*.png")
-	if err != nil {
-		log.Println("Error while creating temp image file: ", err)
+		log.Println("Error while copying to clipboard: ", err)
 		return
-	}
-
-	_, err = imageFile.Write(imageBytes)
-	if err != nil {
-		log.Println("Error while writing to temp image file: ", err)
-		return
-	}
-
-	// TODO: Distinguish between Linux and Windows
-	err = xclip.WriteImage(imageFile)
-	if err != nil {
-		log.Println("Error while writing image to clipboard: ", err)
 	}
 
 	log.Println("Received screenshot")

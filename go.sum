@@ -2,8 +2,6 @@ github.com/BurntSushi/xgb v0.0.0-20210121224620-deaf085860bc h1:7D+Bh06CRPCJO3gr
 github.com/BurntSushi/xgb v0.0.0-20210121224620-deaf085860bc/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/ZacJoffe/clipboard v0.0.0-20190414232103-e1d59897bf29 h1:FYI7oeoh14IlEJxN+zC6VtU75UDA+oqM/2/xiS1Sgls=
 github.com/ZacJoffe/clipboard v0.0.0-20190414232103-e1d59897bf29/go.mod h1:xcfkWpLs2j7ZNabuXDJ/+VsoCxNxWL/WRssfVxJkTwc=
-github.com/eiannone/keyboard v0.0.0-20200508000154-caf4b762e807 h1:jdjd5e68T4R/j4PWxfZqcKY8KtT9oo8IPNVuV4bSXDQ=
-github.com/eiannone/keyboard v0.0.0-20200508000154-caf4b762e807/go.mod h1:Xoiu5VdKMvbRgHuY7+z64lhu/7lvax/22nzASF6GrO8=
 github.com/gen2brain/shm v0.0.0-20200228170931-49f9650110c5 h1:Y5Q2mEwfzjMt5+3u70Gtw93ZOu2UuPeeeTBDntF7FoY=
 github.com/gen2brain/shm v0.0.0-20200228170931-49f9650110c5/go.mod h1:uF6rMu/1nvu+5DpiRLwusA6xB8zlkNoGzKn8lmYONUo=
 github.com/kbinani/screenshot v0.0.0-20191211154542-3a185f1ce18f h1:5hWo+DzJQSOBl6X+TDac0SPWffRonuRJ2///OYtYRT8=
@@ -12,6 +10,8 @@ github.com/lxn/win v0.0.0-20201111105847-2a20daff6a55 h1:4BxFx5XCtXc+nFtXDGDW+Uu
 github.com/lxn/win v0.0.0-20201111105847-2a20daff6a55/go.mod h1:KxxjdtRkfNoYDCUP5ryK7XJJNTnpC8atvtmTheChOtk=
 github.com/robotn/gohook v0.30.5 h1:yECDQXcKUcMxYLzPWBEKaHNiNss6lLq15RrgouDCKw4=
 github.com/robotn/gohook v0.30.5/go.mod h1:FXryR68cDIho8rjE7MKxt4n4aK2FBqp+d/0HK4oiGP8=
+github.com/skanehira/clipboard-image v1.0.0 h1:MJ5PeXxDMteS0HCsjvuoMscBi+AtoqCiPX7bZ2OAxDE=
+github.com/skanehira/clipboard-image v1.0.0/go.mod h1:WAxMgBkENpa206RHfrqV/5y8Kq7CitAozlvVxQxa9gs=
 github.com/vcaesar/tt v0.11.0 h1:obQecjgbnAxxC6OYGY6yDvhGRW2PR5wD8Ma2uJH3WGA=
 github.com/vcaesar/tt v0.11.0/go.mod h1:GHPxQYhn+7OgKakRusH7KJ0M5MhywoeLb8Fcffs/Gtg=
 golang.org/x/sys v0.0.0-20201018230417-eeed37f84f13/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=

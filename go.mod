@@ -9,6 +9,7 @@ require (
 	github.com/kbinani/screenshot v0.0.0-20191211154542-3a185f1ce18f
 	github.com/lxn/win v0.0.0-20201111105847-2a20daff6a55 // indirect
 	github.com/robotn/gohook v0.30.5
+	github.com/skanehira/clipboard-image v1.0.0
 	golang.org/x/sys v0.0.0-20210104204734-6f8348627aad // indirect
 	gopkg.in/yaml.v2 v2.2.2
 )
