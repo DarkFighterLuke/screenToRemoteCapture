@@ -22,7 +22,7 @@ A simple tool to send screenshots to the clipboard of another computer.
 
 ## Windows dependencies
 - Go 1.16 is needed
-- `MINGW-W64` is needed (you can find the right 64 bit version [here](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)
+- `MINGW-W64` is needed (you can find the right 64 bit version [here](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download))
 
 ## Compile
 ```
